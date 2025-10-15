@@ -1,0 +1,15 @@
+:root {
+  --white: #ffffff;
+  --core-blue: #004d6d;
+  --core-grey: rgba(0, 0, 0, 0.1);
+  --font-h1: 5rem;
+  --font-h2: 2.5rem;
+}
+
+#contact-message-feedback-form .form-label {
+  font-size: 1.25em;
+  line-height: 2em;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=form-required.css.map */

@@ -1,0 +1,8 @@
+services:
+
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  m4032404_exception_listener:
+    class: Drupal\m4032404\EventSubscriber\M4032404EventSubscriber

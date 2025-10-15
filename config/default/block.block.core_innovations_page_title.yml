@@ -1,0 +1,20 @@
+uuid: ea204e7a-29eb-4b8f-a08d-224b13d4040d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - core_innovations
+_core:
+  default_config_hash: 1MLHz6Ql1mdvePP_pS4bnG62fn4EVCl_JL09xKsrXs8
+id: core_innovations_page_title
+theme: core_innovations
+region: header
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

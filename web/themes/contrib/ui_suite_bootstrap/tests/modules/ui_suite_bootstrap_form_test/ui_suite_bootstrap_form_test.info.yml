@@ -1,0 +1,9 @@
+name: 'UI Suite Bootstrap Form Test'
+type: module
+description: 'Provides forms to test the rendering of form elements.'
+package: 'Testing'
+
+# Information added by Drupal.org packaging script on 2025-09-17
+version: '5.2.0-beta4'
+project: 'ui_suite_bootstrap'
+datestamp: 1758123703

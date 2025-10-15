@@ -1,0 +1,11 @@
+uuid: c178fef2-3120-4247-a7e7-f6e7b9cf6e72
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ypffQyhZEeqeSMKEk2dimPYcDvVhfA_CRWBQfaGtijY
+id: yandex
+label: Yandex
+url: null
+index_now_url: 'https://yandex.com/indexnow?url=[url]&key=[key]'
+sitemap_variants: {  }

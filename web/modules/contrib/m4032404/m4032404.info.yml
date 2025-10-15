@@ -1,0 +1,10 @@
+name: 403 to 404
+description: Emit a 404 response for access denied pages.
+type: module
+core_version_requirement: ^10.3 || ^11
+configure: m4032404.config
+
+# Information added by Drupal.org packaging script on 2025-09-11
+version: '2.0.3'
+project: 'm4032404'
+datestamp: 1757552777

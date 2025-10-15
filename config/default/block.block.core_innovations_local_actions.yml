@@ -1,0 +1,20 @@
+uuid: d476327b-ac97-4951-b4fa-8509627d180d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - core_innovations
+_core:
+  default_config_hash: EiuVMIO26gvBTxloY1M4HW1gI7E7f7bejetOCgTuRew
+id: core_innovations_local_actions
+theme: core_innovations
+region: header
+weight: -1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

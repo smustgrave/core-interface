@@ -1,0 +1,76 @@
+<?php
+
+/**
+ * @file
+ * Updates for the 403 to 404 module.
+ */
+
+declare(strict_types=1);
+
+use Drupal\Core\StringTranslation\TranslatableMarkup;
+use Drupal\user\Entity\Role;
+
+/**
+ * Update deprecated config from unreleased patch in #3358555.
+ */
+function m4032404_update_8002(array &$sandbox) {
+  $editable_config = \Drupal::service('config.factory')
+    ->getEditable('m4032404.settings');
+
+  // If the disabled key exists, then this site has been using the patch from
+  // #3358555 and needs to have it use negate instead.
+  if (!is_null($disabled = $editable_config->get('disabled', NULL))) {
+    $editable_config->set('negate', $disabled);
+    $editable_config->clear('disabled');
+
+    $editable_config->save();
+
+    return new TranslatableMarkup('Configuration updated successfully.');
+  }
+
+  return new TranslatableMarkup('No deprecated configuration found.');
+}
+
+/**
+ * Add missing config keys from #3358555.
+ */
+function m4032404_update_10001(array &$sandbox) {
+  $editable_config = \Drupal::service('config.factory')
+    ->getEditable('m4032404.settings');
+
+  $changed = FALSE;
+  if (is_null($editable_config->get('pages', NULL))) {
+    $editable_config->set('pages', []);
+    $changed = TRUE;
+  }
+  if (is_null($editable_config->get('negate', NULL))) {
+    $editable_config->set('negate', TRUE);
+    $changed = TRUE;
+  }
+
+  if ($changed) {
+    $editable_config->save();
+    return new TranslatableMarkup('Configuration updated successfully.');
+  }
+
+  return new TranslatableMarkup('No changes to configuration needed.');
+}
+
+/**
+ * Grant "administer 403 to 404 settings" to admin users.
+ */
+function m4032404_update_10002(array &$sandbox) {
+  $count = 0;
+  foreach (Role::loadMultiple() as $role) {
+    if ($role->hasPermission('administer site configuration')) {
+      $count++;
+      user_role_grant_permissions($role->id(), [
+        'administer 403 to 404 settings',
+      ]);
+    }
+  }
+
+  return new TranslatableMarkup('Granted permission to @count role(s).', [
+    '@count' => $count,
+  ]);
+}

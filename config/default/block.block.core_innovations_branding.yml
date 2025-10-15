@@ -1,0 +1,25 @@
+uuid: b3e5afa6-2aee-4f05-a011-7bb1df7b0f5d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - core_innovations
+_core:
+  default_config_hash: OEWmNPmQ9HSASBJdBd4-MHcK-4LOsSh521sR8HMx7O8
+id: core_innovations_branding
+theme: core_innovations
+region: navigation
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 847a704f-f53d-4205-9315-dd86c2b17beb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - core_innovations
+_core:
+  default_config_hash: 9XuYdzoz24lHpMlDJTmasETSUCSZLdZ0C_z6_XBW-2o
+id: core_innovations_main_menu
+theme: core_innovations
+region: navigation_collapsible
+weight: 10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

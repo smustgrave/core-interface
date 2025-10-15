@@ -1,0 +1,22 @@
+uuid: 18a4db95-bfdd-4c35-a74a-2b5e6a25c28e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - core_innovations
+_core:
+  default_config_hash: GyPkJMW29m3mmEq2CVfUbcTDzTESnfvycVKbPq0fuYA
+id: core_innovations_messages
+theme: core_innovations
+region: header
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

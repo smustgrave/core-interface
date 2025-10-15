@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="drupal-m4032404">
+  <description>PHP CodeSniffer configuration for 403 to 404 project.</description>
+  <rule ref="Drupal"/>
+  <rule ref="DrupalPractice"/>
+  <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses">
+    <properties>
+      <property name="caseSensitive" value="true"/>
+    </properties>
+  </rule>
+  <arg name="extensions" value="engine,inc,install,module,php,profile,test,theme,yml"/>
+</ruleset>

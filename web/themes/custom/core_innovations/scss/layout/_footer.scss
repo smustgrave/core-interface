@@ -1,0 +1,40 @@
+footer {
+  min-height: 40px;
+  background-color: #004d6d;
+  color: #ffffff;
+
+  > div {
+    padding: 0 2rem 2rem;
+    display: flex;
+
+    > div {
+      flex: 0 0 33%;
+    }
+
+    #block-core-innovations-footersocialicons {
+      align-self: center;
+      justify-items: center;
+
+      .field--item p {
+        display: flex;
+        gap: 1rem;
+
+        a {
+          color: var(--white);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  #block-core-innovations-footerlefticons {
+    .field--item:first-child {
+      margin-bottom: 0;
+
+      p {
+        margin-bottom: 0;
+        line-height: 1.5rem;
+      }
+    }
+  }
+}

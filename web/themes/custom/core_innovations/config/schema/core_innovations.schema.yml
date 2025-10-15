@@ -1,0 +1,3 @@
+core_innovations.settings:
+  type: ui_suite_bootstrap.settings
+  label: 'core_innovations settings'

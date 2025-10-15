@@ -1,0 +1,28 @@
+_core:
+  default_config_hash: f8iaUiJLSYr6pbtas9v99_iGgtnk4u2yNHiDzhtdVYE
+favicon:
+  use_default: true
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: false
+logo:
+  path: 'public://_logo_CoreInterface_0.png'
+  use_default: false
+container: container
+library:
+  js_loading: ''
+  css_loading: ''
+ui_styles_entity_status_unpublished:
+  selected:
+    colors_background_color: bg-danger-subtle
+ui_styles_regions:
+  sidebar_first:
+    selected:
+      colors_background_color: bg-light
+      spacing_padding: p-3
+  sidebar_second:
+    selected:
+      colors_background_color: bg-light
+      spacing_padding: p-3

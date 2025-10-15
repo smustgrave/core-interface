@@ -1,0 +1,14 @@
+{
+  "name": "core_innovations",
+  "version": "1.0.0",
+  "description": "Theme for Core Innovations",
+  "license": "ISC",
+  "author": "Stephen Mustgrave",
+  "scripts": {
+    "build:css": "sass scss:assets/css",
+    "watch:css": "sass --watch scss:assets/css"
+  },
+  "devDependencies": {
+    "sass": "^1.93.2"
+  }
+}

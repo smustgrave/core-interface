@@ -1,0 +1,25 @@
+uuid: 2a711ee7-236b-43a3-9b73-ed5375b33911
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c1f15363-f408-42a2-8202-aaaac3296aa7'
+  module:
+    - block_content
+  theme:
+    - core_innovations
+id: core_innovations_footersocialicons
+theme: core_innovations
+region: footer
+weight: -3
+provider: null
+plugin: 'block_content:c1f15363-f408-42a2-8202-aaaac3296aa7'
+settings:
+  id: 'block_content:c1f15363-f408-42a2-8202-aaaac3296aa7'
+  label: 'Footer Social Icons'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

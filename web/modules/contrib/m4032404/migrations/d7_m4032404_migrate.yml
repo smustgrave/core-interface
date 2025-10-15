@@ -1,0 +1,14 @@
+id: d7_m4032404_migrate
+label: Migrate m4032404 config.
+migration_tags:
+  - Drupal 7
+  - Configuration
+source:
+  plugin: variable
+  variables:
+    - m4032404_admin_only
+process:
+  admin_only: m4032404_admin_only
+destination:
+  plugin: config
+  config_name: m4032404.settings

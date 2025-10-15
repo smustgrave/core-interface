@@ -1,0 +1,22 @@
+uuid: c3de5813-cebb-4206-9d15-5a043cf485d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - core_innovations
+_core:
+  default_config_hash: lEuaLbS2vQQzw1fS-ZpAEHFKrOfx_zbg-A-fcUs5K3M
+id: core_innovations_content
+theme: core_innovations
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

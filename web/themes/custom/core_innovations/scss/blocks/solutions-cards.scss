@@ -1,0 +1,32 @@
+.solutions-card {
+  margin-top: 5rem;
+  min-height: 530px;
+
+  img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+  }
+
+  h2 {
+    margin-top: 2rem;
+  }
+
+  hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .description {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+  .link {
+    //position: absolute;
+    //bottom: 0;
+    //left: 0;
+    //right: 0;
+  }
+}

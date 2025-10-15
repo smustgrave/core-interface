@@ -1,0 +1,25 @@
+uuid: e9e96e31-780e-445a-bfcd-5991760421c8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5b231464-11d3-4bae-bbc0-aaf309862b76'
+  module:
+    - block_content
+  theme:
+    - core_innovations
+id: core_innovations_footerlefticons
+theme: core_innovations
+region: footer
+weight: -4
+provider: null
+plugin: 'block_content:5b231464-11d3-4bae-bbc0-aaf309862b76'
+settings:
+  id: 'block_content:5b231464-11d3-4bae-bbc0-aaf309862b76'
+  label: 'Footer left icons'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

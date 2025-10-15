@@ -1,0 +1,16 @@
+m4032404.settings:
+  type: config_object
+  label: '403 to 404 settings'
+  mapping:
+    admin_only:
+      type: boolean
+      label: 'Only apply to admin pages'
+    pages:
+      type: sequence
+      label: Select pages to include or exclude.
+      sequence:
+        type: string
+        label: 'Path'
+    negate:
+      type: boolean
+      label: Negate condition for selected pages.

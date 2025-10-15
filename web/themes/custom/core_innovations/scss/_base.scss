@@ -1,0 +1,39 @@
+@use 'mixins';
+
+* {
+  font-family: "Ek Mukta", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  @include mixins.core_innocations_h1;
+}
+
+h2 {
+  @include mixins.core_innocations_h2;
+}
+
+p,
+li {
+  font-weight: 200;
+  font-size: 1.25em;
+  line-height: 2em;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 1550px;
+  padding: 0 2rem;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+ul {
+  font-weight: 100;
+}

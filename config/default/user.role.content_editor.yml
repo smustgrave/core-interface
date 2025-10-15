@@ -1,0 +1,67 @@
+uuid: 6dc99ad1-cdb8-484d-ac39-1d5f1164e993
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - core.entity_view_display.node.page.default
+    - node.type.page
+    - taxonomy.vocabulary.tags
+  module:
+    - block_content
+    - contextual
+    - file
+    - layout_builder
+    - node
+    - path
+    - system
+    - taxonomy
+    - toolbar
+_core:
+  default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
+id: content_editor
+label: 'Content editor'
+weight: 2
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access block library'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access site in maintenance mode'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer menu'
+  - 'administer url aliases'
+  - 'change own username'
+  - 'configure all page node layout overrides'
+  - 'configure editable page node layout overrides'
+  - 'create and edit custom blocks'
+  - 'create basic block content'
+  - 'create page content'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete all revisions'
+  - 'delete any basic block content'
+  - 'delete any basic block content revisions'
+  - 'delete any page content'
+  - 'delete own files'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'delete term revisions in tags'
+  - 'delete terms in tags'
+  - 'edit any basic block content'
+  - 'edit any page content'
+  - 'edit own page content'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'revert any basic block content revisions'
+  - 'revert page revisions'
+  - 'revert term revisions in tags'
+  - 'view all revisions'
+  - 'view any basic block content history'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view term revisions in tags'
+  - 'view the administration theme'

@@ -1,0 +1,643 @@
+# This is automatically extended with JavaScript and CSS for CDN and local
+# loading.
+framework:
+  remote: http://getbootstrap.com/
+  license:
+    name: MIT
+    url: https://github.com/twbs/bootstrap/blob/main/LICENSE
+    gpl-compatible: false
+  css: {}
+  js: {}
+  dependencies: []
+
+bootstrap:
+  css:
+    theme:
+      assets/css/form/form-text.css: {}
+  dependencies:
+    - ui_suite_bootstrap/framework
+
+accessibility:
+  js:
+    assets/js/accessibility.js: {}
+  dependencies:
+    - core/drupal
+    - core/once
+
+component_placeholder:
+  css:
+    theme:
+      assets/css/component/placeholder.css: {}
+
+drupal.active-link:
+  js:
+    assets/js/misc/active-link-trail.js: { }
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+
+drupal.ajax:
+  js:
+    assets/js/misc/ajax.js: {}
+  css:
+    component:
+      assets/css/component/ajax.css: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/components.ui_suite_bootstrap--spinner
+
+drupal.autocomplete:
+  js:
+    assets/js/misc/autocomplete.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+
+drupal.checkbox:
+  js:
+    assets/js/misc/checkbox.js: {}
+  dependencies:
+    - core/drupal
+
+drupal.dialog:
+  js:
+    assets/js/misc/dialog/dialog.js: {}
+  css:
+    theme:
+      assets/css/component/dialog.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - ui_suite_bootstrap/bootstrap
+    - core/components.ui_suite_bootstrap--modal
+    - core/components.ui_suite_bootstrap--close_button
+
+drupal.dialog.ajax:
+  js:
+    assets/js/misc/dialog/dialog.ajax.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupal.ajax
+    - core/components.ui_suite_bootstrap--offcanvas
+
+drupal.dialog.off_canvas:
+  js:
+    assets/js/misc/dialog/dialog.off-canvas.js: {}
+  css:
+    component:
+      assets/css/component/off-canvas.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/components.ui_suite_bootstrap--offcanvas
+    - core/components.ui_suite_bootstrap--close_button
+
+drupal.layout_builder:
+  css:
+    theme:
+      assets/css/layout-builder/layout-builder.css: {}
+
+# Split from drupal.layout_builder for easier overrides depending on
+# template customizations.
+drupal.layout_builder_block_filter:
+  js:
+    assets/js/layout-builder/layout-builder.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+drupal.message:
+  js:
+    assets/js/misc/message.js: {}
+  dependencies:
+    - core/components.ui_suite_bootstrap--alert
+    - core/components.ui_suite_bootstrap--close_button
+
+drupal.progress:
+  js:
+    assets/js/misc/progress.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/components.ui_suite_bootstrap--progress
+
+drupal.tabledrag:
+  js:
+    assets/js/misc/tabledrag.js: {}
+  css:
+    component:
+      assets/css/component/tabledrag.css: {}
+  dependencies:
+    - core/components.ui_suite_bootstrap--alert
+
+drupal.text:
+  js:
+    assets/js/text/text.js: {}
+  dependencies:
+    - core/jquery
+    - core/once
+    - core/drupal
+
+drupal.user:
+  css:
+    component:
+      assets/css/user/password.css: {}
+
+example_carousel:
+  css:
+    theme:
+      assets/css/example/carousel.css: {}
+
+field:
+  css:
+    component:
+      assets/css/component/field.css: {}
+
+form:
+  css:
+    component:
+      assets/css/form/form-required.css: {}
+
+indented:
+  css:
+    component:
+      assets/css/component/indented.css: {}
+
+jquery.validate:
+  js:
+    assets/js/jquery-validation/validate.js: {}
+  dependencies:
+    - core/jquery
+
+media_library.theme:
+  css:
+    theme:
+      assets/css/media-library/media-library-buttons.css: {}
+      assets/css/media-library/media-library-icons.css: {}
+      assets/css/media-library/media-library-states.css: {}
+
+media_library.widget:
+  css:
+    theme:
+      assets/css/media-library/media-library-container-query.css: {}
+
+ui_icons.autocomplete:
+  css:
+    theme:
+      assets/css/ui-icons/autocomplete.css: {}
+
+# Local.
+framework_js:
+  js:
+    /libraries/bootstrap/dist/js/bootstrap.bundle.min.js:
+      minified: true
+  dependencies:
+    - core/jquery
+
+framework_css_bootstrap:
+  css:
+    theme:
+      /libraries/bootstrap/dist/css/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_brite:
+  css:
+    theme:
+      /libraries/bootswatch/dist/brite/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_cerulean:
+  css:
+    theme:
+      /libraries/bootswatch/dist/cerulean/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_cosmo:
+  css:
+    theme:
+      /libraries/bootswatch/dist/cosmo/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_cyborg:
+  css:
+    theme:
+      /libraries/bootswatch/dist/cyborg/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_darkly:
+  css:
+    theme:
+      /libraries/bootswatch/dist/darkly/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_flatly:
+  css:
+    theme:
+      /libraries/bootswatch/dist/flatly/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_journal:
+  css:
+    theme:
+      /libraries/bootswatch/dist/journal/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_litera:
+  css:
+    theme:
+      /libraries/bootswatch/dist/litera/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_lumen:
+  css:
+    theme:
+      /libraries/bootswatch/dist/lumen/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_lux:
+  css:
+    theme:
+      /libraries/bootswatch/dist/lux/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_materia:
+  css:
+    theme:
+      /libraries/bootswatch/dist/materia/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_minty:
+  css:
+    theme:
+      /libraries/bootswatch/dist/minty/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_morph:
+  css:
+    theme:
+      /libraries/bootswatch/dist/morph/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_pulse:
+  css:
+    theme:
+      /libraries/bootswatch/dist/pulse/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_quartz:
+  css:
+    theme:
+      /libraries/bootswatch/dist/quartz/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_sandstone:
+  css:
+    theme:
+      /libraries/bootswatch/dist/sandstone/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_simplex:
+  css:
+    theme:
+      /libraries/bootswatch/dist/simplex/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_sketchy:
+  css:
+    theme:
+      /libraries/bootswatch/dist/sketchy/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_slate:
+  css:
+    theme:
+      /libraries/bootswatch/dist/slate/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_solar:
+  css:
+    theme:
+      /libraries/bootswatch/dist/solar/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_spacelab:
+  css:
+    theme:
+      /libraries/bootswatch/dist/spacelab/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_superhero:
+  css:
+    theme:
+      /libraries/bootswatch/dist/superhero/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_united:
+  css:
+    theme:
+      /libraries/bootswatch/dist/united/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_vapor:
+  css:
+    theme:
+      /libraries/bootswatch/dist/vapor/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_yeti:
+  css:
+    theme:
+      /libraries/bootswatch/dist/yeti/bootstrap.min.css:
+        minified: true
+
+framework_css_bootswatch_zephyr:
+  css:
+    theme:
+      /libraries/bootswatch/dist/zephyr/bootstrap.min.css:
+        minified: true
+
+# CDN.
+framework_js_cdn:
+  js:
+    https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js:
+      attributes:
+        integrity: sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI
+        crossorigin: anonymous
+      minified: true
+      type: external
+  dependencies:
+    - core/jquery
+
+framework_css_cdn_bootstrap:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css:
+        attributes:
+          integrity: sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_brite:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/brite/bootstrap.min.css:
+        attributes:
+          integrity: sha384-Ofi7E7ZOYTr4CxupdpiGUzzXde5ISlET4zbL25ujM4xQDsQmnLHb5H5d+Helx0qk
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_cerulean:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/cerulean/bootstrap.min.css:
+        attributes:
+          integrity: sha384-HqhCRk5UwZdbqmzeyYZHCwu3IuFe84q3c8UZtboEpYrdnIwi0RLZDag0RpKbFBHL
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_cosmo:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/cosmo/bootstrap.min.css:
+        attributes:
+          integrity: sha384-QOrayDhdkHbTAsh/gb0iGlDY/xHwI3sdDvyHkxnfpY20Y+Pa8aRHFXmLQYklmIx/
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_cyborg:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/cyborg/bootstrap.min.css:
+        attributes:
+          integrity: sha384-qxGSw6SRX7woR/PK/wbYrdowFJ2DdFQF+nwWswHGKp+jqtYAQKCvBzB/3b+Pjx6W
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_darkly:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/darkly/bootstrap.min.css:
+        attributes:
+          integrity: sha384-t2UKecXY6tDoQIsEiNhYTaTFWmoHgQT7MV80h9huTejPYLkdgaOHv8ssDrS3Cdcw
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_flatly:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/flatly/bootstrap.min.css:
+        attributes:
+          integrity: sha384-MZ3pnZEBOL1wAG2nrP+M1A9LCApF229c39UC+1T3B96aI3VjuAWMeb1I99GMJacE
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_journal:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/journal/bootstrap.min.css:
+        attributes:
+          integrity: sha384-eRVXTeypnZFrG30qaCO1StJ3gOF9/t2OF+M6BLE1/o69NMCO6W135Be6Z+ajWR6V
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_litera:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/litera/bootstrap.min.css:
+        attributes:
+          integrity: sha384-g6vhFEtzOi0DDt7vbQKSu/YNZmo3NJPwXhjhyao/avcyLwyY4C+t630BOB6eoBpF
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_lumen:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/lumen/bootstrap.min.css:
+        attributes:
+          integrity: sha384-VvtmOf0H1c5UOkg0sTVnp2+DaE7+6PO78xrugFKUni8B3tEbZ6V56DNytr8Zs2ZI
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_lux:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/lux/bootstrap.min.css:
+        attributes:
+          integrity: sha384-0hYdc6q9O/GUgxXwzZ4g/D6UAIb+PdD4RbQADGoSKqAGG5yBVeJYHWz1EXZXFjf6
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_materia:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/materia/bootstrap.min.css:
+        attributes:
+          integrity: sha384-W2UjBw+COF3Eo7koIX3NVgE5zvvJqgwN/iqcHt00n+MNZlyeUzotrrhvPcZVfSUZ
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_minty:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/minty/bootstrap.min.css:
+        attributes:
+          integrity: sha384-7cNn55KSVPdYzfuegchZCGqbVrV6ksXrmgEb1VZbPHSwQqCFDFTrQfg8MsZmSI7u
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_morph:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/morph/bootstrap.min.css:
+        attributes:
+          integrity: sha384-x8ZzaWWeiHoeOKxzqViigGot3Uxq/86QdU4PmdzkDbpvqikfiztn9NXAOe9VoDn/
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_pulse:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/pulse/bootstrap.min.css:
+        attributes:
+          integrity: sha384-s1beQxR3MhCcfAHT7ulQXJiGt1ejAnXU2LMI2I+23+ty05iA1rf+jsy5WiWJOnms
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_quartz:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/quartz/bootstrap.min.css:
+        attributes:
+          integrity: sha384-1Pk9yPJEOSSDwX+PSDz1BitsclSsBQdVX17SR6KJEzl/LlT5lnTnOArjHcu/4VG1
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_sandstone:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/sandstone/bootstrap.min.css:
+        attributes:
+          integrity: sha384-fNau2pcWOdbUULBw483bxURlLECRa/y2jWlGAJqBbnFzurmThA8gwbpHKogT37Do
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_simplex:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/simplex/bootstrap.min.css:
+        attributes:
+          integrity: sha384-6ROvCwoH6HDVxMBZrCLzh5t4tMXwFcEXILGqY/fvKl2bQpD4cij1g6fSUA0SbXsh
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_sketchy:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/sketchy/bootstrap.min.css:
+        attributes:
+          integrity: sha384-JydQZovtaTxBDWypezbaeDcTZRTjToRV4VMLNx6PTVbViu5x+4DtMCJQmwpYrZCF
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_slate:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/slate/bootstrap.min.css:
+        attributes:
+          integrity: sha384-qhrBcipvKS9sQcI3lcoXpdKNs9jmQAunazzwZW3aZeuFMoRih2NYJIDsr6XTFndn
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_solar:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/solar/bootstrap.min.css:
+        attributes:
+          integrity: sha384-sD1IsxtjOsJchPKi0IV4d26qTKtjaSCKexjv71/cyndbK1gFKAz7iPf2xtRbsqpi
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_spacelab:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/spacelab/bootstrap.min.css:
+        attributes:
+          integrity: sha384-6O06/mG6zTPV5qcszBfW91idf95OvvBVrsSlQ23AP7bq5TYK0Gh4lmmHSf47i/B2
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_superhero:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/superhero/bootstrap.min.css:
+        attributes:
+          integrity: sha384-fU437/gCPFVIYQG5/RnXUGGh+prGONHn6C9GslvteaFVmNCeul6aHunWDz85bM78
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_united:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/united/bootstrap.min.css:
+        attributes:
+          integrity: sha384-CtE18eQN6gdhF75AwSNgRfJDqd3YmE+cpu9NqHKEhsp4Xbh8MbPboXFaGaMjs4oE
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_vapor:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/vapor/bootstrap.min.css:
+        attributes:
+          integrity: sha384-V2qF16o6CEJntOUT/bjC83Rs2wB24++/hfV0D2AV4lM3rGwY1U56PszercfsQWnm
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_yeti:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/yeti/bootstrap.min.css:
+        attributes:
+          integrity: sha384-OMwG/TAHy7NRQbZ6SZ/45S4g8n76iLIAkbYP8evydAdSZiO97yIyh5g2zThHlY8r
+          crossorigin: anonymous
+        minified: true
+        type: external
+
+framework_css_cdn_bootswatch_zephyr:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/zephyr/bootstrap.min.css:
+        attributes:
+          integrity: sha384-0qFVRx98HJem0F2omOB5o37vVaRuuesFrDqe5Q292oSriOauZU47Cz7anAMHnYnf
+          crossorigin: anonymous
+        minified: true
+        type: external
