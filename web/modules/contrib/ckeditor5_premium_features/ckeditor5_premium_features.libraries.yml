@@ -1,5 +1,5 @@
 collaboration-integration-base:
-  version: 20250318
+  version: 20250908
   license:
     name: GNU-GPL-2.0-or-later
     url: https://raw.githubusercontent.com/ckeditor/ckeditor5/master/LICENSE.md
@@ -36,6 +36,7 @@ media-export-features:
     js/libraries/media-tags-converter.js: { minified: false }
     js/libraries/relative-paths-processor.js: { minified: false }
     js/libraries/base64-image-converter.js: { minified: false }
+    js/libraries/caption-filter-converter.js: { minified: false }
 
 export-integration:
   version: 20230626

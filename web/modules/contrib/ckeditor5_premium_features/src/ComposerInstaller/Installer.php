@@ -9,12 +9,12 @@ declare(strict_types=1);
 
 namespace Drupal\ckeditor5_premium_features\ComposerInstaller;
 
-use Drupal\package_manager\StageBase;
+use Drupal\package_manager\SandboxManagerBase;
 
 /**
  * Defines a service to perform installs.
  */
-final class Installer extends StageBase {
+final class Installer extends SandboxManagerBase {
 
   /**
    * {@inheritdoc}

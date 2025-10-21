@@ -288,7 +288,7 @@ $settings['config_sync_directory'] = '../config/default';
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = '_J1vJmSuqwfNVn8omj1T-19odrcBxbibYehwaaYR4HKbxoCK1M1269eo0hIr_5sL0DJv2ET0Wg';
 
 /**
  * Deployment identifier.
@@ -764,7 +764,7 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  *
  * @see https://www.drupal.org/docs/installing-drupal/trusted-host-settings
  */
-# $settings['trusted_host_patterns'] = [];
+$settings['trusted_host_patterns'] = ['^/core-interface.com$'];
 
 /**
  * The default list of directories that will be ignored by Drupal's file API.
@@ -860,6 +860,8 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 if (getenv('IS_DDEV_PROJECT') == 'true' && file_exists(__DIR__ . '/settings.ddev.php')) {
   include __DIR__ . '/settings.ddev.php';
 }
+
+$settings['simple_sitemap_engines.index_now.key'] = '76edf60f-432e-49d4-a19a-d5d12e3deea0';
 
 /**
  * Load local development override configuration, if available.
