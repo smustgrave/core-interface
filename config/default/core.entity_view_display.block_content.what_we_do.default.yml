@@ -1,0 +1,36 @@
+uuid: 6613014a-4742-4a97-ba88-052181786c45
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.what_we_do
+    - field.field.block_content.what_we_do.field_icon
+    - field.field.block_content.what_we_do.field_title
+    - image.style.medium
+  module:
+    - image
+id: block_content.what_we_do.default
+targetEntityType: block_content
+bundle: what_we_do
+mode: default
+content:
+  field_icon:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

@@ -1,4 +1,4 @@
-uuid: 599c24da-91a4-4d08-8b4d-fed448c5d7ad
+uuid: bd62b1ed-fa24-476e-be05-680bc405177e
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ entity_type: node
 bundle: page
 label: Banner
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

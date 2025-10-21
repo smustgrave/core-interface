@@ -9,5 +9,5 @@ fetch:
   timeout: 30
 notification:
   emails:
-    - something@test.com
+    - smustgrave@gmail.com
   threshold: all

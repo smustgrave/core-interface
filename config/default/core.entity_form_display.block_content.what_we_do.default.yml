@@ -1,0 +1,41 @@
+uuid: 01e0e10e-84f1-4cfb-813c-2befdb4494a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.what_we_do
+    - field.field.block_content.what_we_do.field_icon
+    - field.field.block_content.what_we_do.field_title
+    - image.style.thumbnail
+  module:
+    - image
+id: block_content.what_we_do.default
+targetEntityType: block_content
+bundle: what_we_do
+mode: default
+content:
+  field_icon:
+    type: image_image
+    weight: 27
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

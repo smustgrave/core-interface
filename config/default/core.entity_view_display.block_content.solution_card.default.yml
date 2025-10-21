@@ -1,0 +1,45 @@
+uuid: 8105b8dc-fce2-4784-b1a0-3968ffba3ef9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.solution_card
+    - field.field.block_content.solution_card.field_body
+    - field.field.block_content.solution_card.field_icon
+    - field.field.block_content.solution_card.field_title
+    - image.style.medium
+  module:
+    - image
+    - text
+id: block_content.solution_card.default
+targetEntityType: block_content
+bundle: solution_card
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_icon:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

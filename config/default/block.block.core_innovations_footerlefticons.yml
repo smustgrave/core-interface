@@ -1,9 +1,9 @@
-uuid: e9e96e31-780e-445a-bfcd-5991760421c8
+uuid: 720d13a3-af9f-426d-9e2c-faf22cd1c074
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:5b231464-11d3-4bae-bbc0-aaf309862b76'
+    - 'block_content:basic:492e78d5-ceab-4392-8eff-ff9272fded9b'
   module:
     - block_content
   theme:
@@ -11,11 +11,11 @@ dependencies:
 id: core_innovations_footerlefticons
 theme: core_innovations
 region: footer
-weight: -4
+weight: -5
 provider: null
-plugin: 'block_content:5b231464-11d3-4bae-bbc0-aaf309862b76'
+plugin: 'block_content:492e78d5-ceab-4392-8eff-ff9272fded9b'
 settings:
-  id: 'block_content:5b231464-11d3-4bae-bbc0-aaf309862b76'
+  id: 'block_content:492e78d5-ceab-4392-8eff-ff9272fded9b'
   label: 'Footer left icons'
   label_display: '0'
   provider: block_content

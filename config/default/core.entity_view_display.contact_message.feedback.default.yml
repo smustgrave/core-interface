@@ -1,4 +1,4 @@
-uuid: dbcf77f5-c125-434c-884b-6680013e4a45
+uuid: 18181cf1-a888-4e6e-bfe1-100595ef9724
 langcode: en
 status: true
 dependencies:
@@ -16,19 +16,20 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
   field_phone:
     type: basic_string
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
   message:
-    type: basic_string
-    label: hidden
-    settings: {  }
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
     weight: 0
     region: content

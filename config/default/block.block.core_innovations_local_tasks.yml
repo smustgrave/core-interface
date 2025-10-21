@@ -1,6 +1,6 @@
-uuid: 2a163872-8a2f-4cf4-b117-bebc3a9b97bc
+uuid: 48479771-11be-4042-94ca-21fe0b504d8a
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - core_innovations
@@ -9,7 +9,7 @@ _core:
 id: core_innovations_local_tasks
 theme: core_innovations
 region: header
-weight: -2
+weight: 10
 provider: null
 plugin: local_tasks_block
 settings:

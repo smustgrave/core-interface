@@ -1,9 +1,9 @@
-uuid: 2a711ee7-236b-43a3-9b73-ed5375b33911
+uuid: 1b2a42b0-1caa-42fd-b137-bb80fbfcd2e5
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:c1f15363-f408-42a2-8202-aaaac3296aa7'
+    - 'block_content:basic:96d72fc2-28f9-45e2-8047-d9bb3eee8bea'
   module:
     - block_content
   theme:
@@ -11,11 +11,11 @@ dependencies:
 id: core_innovations_footersocialicons
 theme: core_innovations
 region: footer
-weight: -3
+weight: -4
 provider: null
-plugin: 'block_content:c1f15363-f408-42a2-8202-aaaac3296aa7'
+plugin: 'block_content:96d72fc2-28f9-45e2-8047-d9bb3eee8bea'
 settings:
-  id: 'block_content:c1f15363-f408-42a2-8202-aaaac3296aa7'
+  id: 'block_content:96d72fc2-28f9-45e2-8047-d9bb3eee8bea'
   label: 'Footer Social Icons'
   label_display: '0'
   provider: block_content

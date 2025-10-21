@@ -1,0 +1,51 @@
+uuid: 582de48a-d849-4dac-854c-e58b8e516833
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.solution_card
+    - field.field.block_content.solution_card.field_body
+    - field.field.block_content.solution_card.field_icon
+    - field.field.block_content.solution_card.field_title
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: block_content.solution_card.default
+targetEntityType: block_content
+bundle: solution_card
+mode: default
+content:
+  field_body:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_icon:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

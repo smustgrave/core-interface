@@ -1,4 +1,4 @@
-uuid: d42a8158-3416-4a92-8ccd-f022b942e284
+uuid: 695f848b-d867-4af6-98c5-c1621c89f06b
 langcode: en
 status: true
 dependencies: {  }
@@ -12,8 +12,8 @@ effects:
     id: image_scale
     weight: 0
     data:
-      width: 220
-      height: 220
+      width: 200
+      height: 200
       upscale: false
   c410ed2f-aa30-4d9c-a224-d2865d9188cd:
     uuid: c410ed2f-aa30-4d9c-a224-d2865d9188cd

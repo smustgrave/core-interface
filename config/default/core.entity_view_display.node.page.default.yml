@@ -1,4 +1,4 @@
-uuid: 88d014ce-ad67-4bed-80b7-65aff1a6a0dd
+uuid: 363aceaa-7e8c-4b97-a049-8b82ea76a9b2
 langcode: en
 status: true
 dependencies:
@@ -23,8 +23,8 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          dd336da1-cb02-4a73-be55-bbea38c0409e:
-            uuid: dd336da1-cb02-4a73-be55-bbea38c0409e
+          6a6421cf-8c5c-4d84-89e9-88527eb01e61:
+            uuid: 6a6421cf-8c5c-4d84-89e9-88527eb01e61
             region: content
             configuration:
               id: 'extra_field_block:node:page:links'
@@ -33,8 +33,8 @@ third_party_settings:
                 entity: layout_builder.entity
             weight: 0
             additional: {  }
-          a12e4d04-78b6-4248-91a3-529566aa125f:
-            uuid: a12e4d04-78b6-4248-91a3-529566aa125f
+          55df4bc2-2f7f-4a0b-8f1c-cccf0688b336:
+            uuid: 55df4bc2-2f7f-4a0b-8f1c-cccf0688b336
             region: content
             configuration:
               id: 'field_block:node:page:field_body'
@@ -43,39 +43,11 @@ third_party_settings:
                 entity: layout_builder.entity
               formatter:
                 type: text_default
-                label: above
+                label: hidden
                 settings: {  }
                 third_party_settings: {  }
             weight: 1
             additional: {  }
-          92efe9ee-1529-4d49-bc68-a3ff13fd555c:
-            uuid: 92efe9ee-1529-4d49-bc68-a3ff13fd555c
-            region: content
-            configuration:
-              id: 'field_block:node:page:field_banner'
-              label: Banner
-              label_display: '0'
-              provider: layout_builder
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-              formatter:
-                type: image
-                label: hidden
-                settings:
-                  image_link: ''
-                  image_style: max_1300x1300
-                  image_loading:
-                    attribute: lazy
-                third_party_settings: {  }
-            weight: 2
-            additional:
-              ui_styles_wrapper: {  }
-              ui_styles_wrapper_extra: ''
-              ui_styles_title: {  }
-              ui_styles_title_extra: ''
-              ui_styles: {  }
-              ui_styles_extra: ''
         third_party_settings: {  }
 _core:
   default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
@@ -86,7 +58,7 @@ mode: default
 content:
   field_banner:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: ''
       image_style: ''
@@ -97,7 +69,7 @@ content:
     region: content
   field_body:
     type: text_default
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 102

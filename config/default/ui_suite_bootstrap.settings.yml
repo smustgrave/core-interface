@@ -9,10 +9,6 @@ features:
   node_user_picture: true
 logo:
   use_default: true
-container: container
-library:
-  js_loading: ui_suite_bootstrap/framework_js_cdn
-  css_loading: ui_suite_bootstrap/framework_css_cdn_bootstrap
 ui_styles_entity_status_unpublished:
   selected:
     colors_background_color: bg-danger-subtle
@@ -25,3 +21,7 @@ ui_styles_regions:
     selected:
       colors_background_color: bg-light
       spacing_padding: p-3
+container: container
+library:
+  js_loading: ui_suite_bootstrap/framework_js_cdn
+  css_loading: ui_suite_bootstrap/framework_css_cdn_bootstrap

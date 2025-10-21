@@ -1,4 +1,4 @@
-uuid: d476327b-ac97-4951-b4fa-8509627d180d
+uuid: bbba4f7a-48ad-4361-8d4a-38e3c4f87176
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: core_innovations_local_actions
 theme: core_innovations
 region: header
-weight: -1
+weight: 20
 provider: null
 plugin: local_actions_block
 settings:

@@ -6,13 +6,12 @@ features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
-  node_user_picture: false
+  node_user_picture: true
 logo:
-  path: 'public://_logo_CoreInterface_0.png'
-  use_default: false
+  use_default: true
 container: container
 library:
-  js_loading: ''
+  js_loading: ui_suite_bootstrap/framework_js_cdn
   css_loading: ''
 ui_styles_entity_status_unpublished:
   selected:

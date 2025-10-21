@@ -1,4 +1,4 @@
-uuid: c0e9d372-b19f-48ee-b86b-cf41a454e34b
+uuid: 429ad539-cde6-4bb3-bce5-6429b2e365bf
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - contact@core-interface.com
+  - smustgrave@gmail.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

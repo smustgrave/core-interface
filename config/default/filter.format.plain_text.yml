@@ -1,4 +1,4 @@
-uuid: 9478454a-74b1-46df-99b5-1fcbe0578c8c
+uuid: e71a73dd-8646-4a7d-961e-5955d5d7e4d5
 langcode: en
 status: true
 dependencies: {  }
@@ -6,7 +6,7 @@ _core:
   default_config_hash: JLMwODO0epnA_H-jFlH9ezVfa5YBJniRv3MmLqYNl_Q
 name: 'Plain text'
 format: plain_text
-weight: -7
+weight: -8
 filters:
   filter_autop:
     id: filter_autop

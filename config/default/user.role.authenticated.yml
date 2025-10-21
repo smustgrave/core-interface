@@ -1,10 +1,14 @@
-uuid: dc7e5800-a52a-408c-abfe-ad4e06d09309
+uuid: 0adfa534-d0c8-4305-9a2b-6b9272823df6
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.basic_html
   module:
     - contact
     - file
+    - filter
+    - media
     - system
 _core:
   default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
@@ -16,3 +20,5 @@ permissions:
   - 'access content'
   - 'access site-wide contact form'
   - 'delete own files'
+  - 'use text format basic_html'
+  - 'view media'

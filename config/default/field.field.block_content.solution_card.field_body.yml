@@ -1,0 +1,22 @@
+uuid: cca807da-803a-408d-a88b-457027413a2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.solution_card
+    - field.storage.block_content.field_body
+  module:
+    - text
+id: block_content.solution_card.field_body
+field_name: field_body
+entity_type: block_content
+bundle: solution_card
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

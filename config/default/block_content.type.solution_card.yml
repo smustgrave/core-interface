@@ -1,0 +1,8 @@
+uuid: 50145450-c863-4382-bcd5-f71fbae80b91
+langcode: en
+status: true
+dependencies: {  }
+id: solution_card
+label: 'Solution card'
+revision: true
+description: null

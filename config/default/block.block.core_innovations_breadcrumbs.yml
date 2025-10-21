@@ -1,4 +1,4 @@
-uuid: a01c616c-5aa8-4e9a-b5a4-036bf3092c1f
+uuid: a3b5bbdc-c907-4681-88b5-cfede1a30a00
 langcode: en
 status: false
 dependencies:
@@ -26,7 +26,7 @@ _core:
 id: core_innovations_breadcrumbs
 theme: core_innovations
 region: header
-weight: 0
+weight: -100
 provider: null
 plugin: system_breadcrumb_block
 settings:

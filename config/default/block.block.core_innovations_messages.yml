@@ -1,4 +1,4 @@
-uuid: 18a4db95-bfdd-4c35-a74a-2b5e6a25c28e
+uuid: 58c73fcc-69fa-4bff-9978-e366d64b011d
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: core_innovations_messages
 theme: core_innovations
 region: header
-weight: -3
+weight: -50
 provider: null
 plugin: system_messages_block
 settings:

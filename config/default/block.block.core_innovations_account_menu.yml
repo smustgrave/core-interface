@@ -1,0 +1,40 @@
+uuid: d9a60ba8-5156-477e-8607-f36caa6938d2
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+    - ui_styles
+  theme:
+    - core_innovations
+third_party_settings:
+  ui_styles:
+    block:
+      selected:
+        spacing_margin_start: ms-auto
+      extra: ''
+    title:
+      selected: {  }
+      extra: ''
+    content:
+      selected: {  }
+      extra: ''
+_core:
+  default_config_hash: 8qK2a5M9Z6kLNGN-_wk767gwa8jGse2iHaZcqkUcvOM
+id: core_innovations_account_menu
+theme: core_innovations
+region: navigation_collapsible
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }
