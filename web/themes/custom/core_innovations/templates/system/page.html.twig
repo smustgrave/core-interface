@@ -59,7 +59,7 @@
   {% elseif container == 'container-xxl' %}
     {% set header_gutter = 'gx-xxl-4' %}
   {% endif %}
-  <div class="{{ container }} gx-0 {{ header_gutter }} mb-3">
+  <div class="{{ container }} gx-0 {{ header_gutter }}">
     {{ include('ui_suite_bootstrap:navbar', {
       navigation: page.navigation,
       navigation_collapsible: page.navigation_collapsible,
@@ -161,7 +161,7 @@
 {% endif %}
 
 {% if page.footer %}
-  <footer class="border-top mt-3 pt-3 container-fluid" role="contentinfo">
+  <footer class="border-top mt-3 pt-3 {{ container }}" role="contentinfo">
     {{ page.footer }}
   </footer>
 {% endif %}

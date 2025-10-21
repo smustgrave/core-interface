@@ -1,4 +1,5 @@
-.core-btn a {
+.core-btn a,
+a.core-button {
   display:inline-block;
   background-color: var(--white);
   color: var(--core-blue);
@@ -7,4 +8,28 @@
   border: 1px solid var(--core-blue);
   font-size: 1.25em;
   text-decoration: none;
+
+  &:hover {
+    background: var(--core-blue);
+    color: var(--white);
+
+    span {
+      background: var(--core-blue);
+      color: var(--white);
+    }
+  }
+}
+
+// Override submit.
+.btn-primary[type="submit"] {
+  background: transparent;
+  border-radius: unset;
+  border-color: var(--core-blue);
+  font-size: 1.25em;
+  color: var(--core-blue);
+
+  &:hover {
+    background: var(--core-blue);
+    color: var(--white);
+  }
 }

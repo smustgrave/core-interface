@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ce54751334586f149692318f9191d4c3",
+    "content-hash": "491f83a296c5951dc3970e628ef9dcf5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1360,6 +1360,58 @@
             "time": "2025-08-21T16:00:31+00:00"
         },
         {
+            "name": "drupal/background_image_formatter",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/background_image_formatter.git",
+                "reference": "2.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/background_image_formatter-2.0.4.zip",
+                "reference": "2.0.4",
+                "shasum": "1cfc96e9cd3261030fc8da7284f164c65d8e813a"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.4",
+                    "datestamp": "1711948894",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "garethhallnz",
+                    "homepage": "https://www.drupal.org/user/772766"
+                },
+                {
+                    "name": "Zulljin",
+                    "homepage": "https://www.drupal.org/user/3138649"
+                }
+            ],
+            "description": "Background Image Formatter provides an image formatter to display images in background.",
+            "homepage": "https://www.drupal.org/project/background_image_formatter",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/background_image_formatter",
+                "issues": "https://www.drupal.org/project/issues/background_image_formatter"
+            }
+        },
+        {
             "name": "drupal/ckeditor5_plugin_pack",
             "version": "1.4.1",
             "source": {
@@ -1481,50 +1533,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/ckeditor5_premium_features",
                 "issues": "https://www.drupal.org/project/issues/ckeditor5_premium_features"
-            }
-        },
-        {
-            "name": "drupal/ckeditor_bs_grid",
-            "version": "2.0.12",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/ckeditor_bs_grid.git",
-                "reference": "2.0.12"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ckeditor_bs_grid-2.0.12.zip",
-                "reference": "2.0.12",
-                "shasum": "6c23656af8f09967236000410afa29b43ba510c5"
-            },
-            "require": {
-                "drupal/core": "^9.3 || ^10 || ^11"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "2.0.12",
-                    "datestamp": "1720020194",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "b_sharpe",
-                    "homepage": "https://www.drupal.org/user/2512258"
-                }
-            ],
-            "description": "Allows creating rows and columns within CKEditor using Bootstrap syntax.",
-            "homepage": "https://www.drupal.org/project/ckeditor_bs_grid",
-            "support": {
-                "source": "https://git.drupalcode.org/project/ckeditor_bs_grid"
             }
         },
         {
@@ -2365,71 +2373,6 @@
             ]
         },
         {
-            "name": "drupal/gin_lb",
-            "version": "3.0.0-beta1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/gin_lb.git",
-                "reference": "3.0.0-beta1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/gin_lb-3.0.0-beta1.zip",
-                "reference": "3.0.0-beta1",
-                "shasum": "eadb4ff259436a897c635dfa45129d4ef94e1d57"
-            },
-            "require": {
-                "drupal/core": "^11.2",
-                "drupal/gin": "^5.0",
-                "drupal/gin_toolbar": "^3.0"
-            },
-            "conflict": {
-                "drupal/lb_claro": "*"
-            },
-            "require-dev": {
-                "drupal/field_group": "*",
-                "drupal/section_library": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "3.0.0-beta1",
-                    "datestamp": "1753078263",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "christian.wiedemann",
-                    "homepage": "https://www.drupal.org/user/861002"
-                },
-                {
-                    "name": "duwid",
-                    "homepage": "https://www.drupal.org/user/2693877"
-                },
-                {
-                    "name": "grimreaper",
-                    "homepage": "https://www.drupal.org/user/2388214"
-                },
-                {
-                    "name": "sch4lly",
-                    "homepage": "https://www.drupal.org/user/856550"
-                }
-            ],
-            "description": "Layout Builder in Gin style.",
-            "homepage": "https://www.drupal.org/project/gin_lb",
-            "support": {
-                "source": "https://git.drupalcode.org/project/gin_lb"
-            }
-        },
-        {
             "name": "drupal/gin_toolbar",
             "version": "3.0.2",
             "source": {
@@ -2493,27 +2436,27 @@
             ]
         },
         {
-            "name": "drupal/layout_builder_admin_theme",
-            "version": "2.0.2",
+            "name": "drupal/linkit",
+            "version": "7.0.10",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/project/layout_builder_admin_theme.git",
-                "reference": "2.0.2"
+                "url": "https://git.drupalcode.org/project/linkit.git",
+                "reference": "7.0.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/layout_builder_admin_theme-2.0.2.zip",
-                "reference": "2.0.2",
-                "shasum": "331d2a3d7f8b5130268ae089d03bcae59c1b7544"
+                "url": "https://ftp.drupal.org/files/projects/linkit-7.0.10.zip",
+                "reference": "7.0.10",
+                "shasum": "10a7d4bce0038e887e597911b60919496c640f41"
             },
             "require": {
-                "drupal/core": "^9 || ^10 || ^11"
+                "drupal/core": "^10.1 || ^11"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.2",
-                    "datestamp": "1723183931",
+                    "version": "7.0.10",
+                    "datestamp": "1759925018",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2526,18 +2469,25 @@
             ],
             "authors": [
                 {
-                    "name": "ivnish",
-                    "homepage": "https://www.drupal.org/user/3547706"
+                    "name": "Emil Stjerneman",
+                    "homepage": "https://stjerneman.com",
+                    "email": "emil@stjerneman.com",
+                    "role": "Maintainer"
                 },
                 {
-                    "name": "robert.duplock",
-                    "homepage": "https://www.drupal.org/user/3645985"
+                    "name": "johnwebdev",
+                    "homepage": "https://www.drupal.org/user/3331569"
+                },
+                {
+                    "name": "mark_fullmer",
+                    "homepage": "https://www.drupal.org/user/2612816"
                 }
             ],
-            "description": "Makes your Drupal site use the admin theme when using \"Layout builder\".",
-            "homepage": "https://www.drupal.org/project/layout_builder_admin_theme",
+            "description": "Linkit - Enriched linking experience",
+            "homepage": "http://drupal.org/project/linkit",
             "support": {
-                "source": "https://git.drupalcode.org/project/layout_builder_admin_theme"
+                "source": "http://cgit.drupalcode.org/linkit",
+                "issues": "http://drupal.org/project/linkit"
             }
         },
         {
@@ -3048,45 +2998,6 @@
             }
         },
         {
-            "name": "drupal/ui_icons_patterns",
-            "version": "1.1.0-beta6",
-            "require": {
-                "drupal/core": "^10.3 || ^11.0",
-                "drupal/ui_icons": "*",
-                "drupal/ui_patterns": "*"
-            },
-            "type": "metapackage",
-            "extra": {
-                "drupal": {
-                    "version": "1.1.0-beta6",
-                    "datestamp": "1750427882",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "mogtofu33",
-                    "homepage": "https://www.drupal.org/user/278510"
-                },
-                {
-                    "name": "pdureau",
-                    "homepage": "https://www.drupal.org/user/1903334"
-                }
-            ],
-            "description": "Icons integration with UI Patterns 1.x and UI Patterns 2.x.",
-            "homepage": "https://www.drupal.org/project/ui_icons",
-            "support": {
-                "source": "https://git.drupalcode.org/project/ui_icons"
-            }
-        },
-        {
             "name": "drupal/ui_patterns",
             "version": "2.0.10",
             "source": {
@@ -3285,57 +3196,6 @@
             "homepage": "https://www.drupal.org/project/ui_suite_bootstrap",
             "support": {
                 "source": "https://git.drupalcode.org/project/ui_suite_bootstrap"
-            }
-        },
-        {
-            "name": "drupal/ui_suite_uswds",
-            "version": "4.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/ui_suite_uswds.git",
-                "reference": "4.0.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ui_suite_uswds-4.0.1.zip",
-                "reference": "4.0.1",
-                "shasum": "ef8178589020b8cc22ca3a82390d1ccec924d58a"
-            },
-            "require": {
-                "drupal/core": "^10.3 || ^11",
-                "drupal/ui_icons": "^1.0",
-                "drupal/ui_icons_patterns": "*",
-                "drupal/ui_patterns": "^2.0",
-                "drupal/ui_styles": "^1.16",
-                "twig/twig": "^3.11"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "drupal": {
-                    "version": "4.0.1",
-                    "datestamp": "1747436303",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Stephen Mustgrave (smustgrave)",
-                    "homepage": "https://www.drupal.org/u/smustgrave",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "USWDS theme utilizing UI Patterns.",
-            "homepage": "https://www.drupal.org/project/ui_suite_uswds",
-            "support": {
-                "source": "https://git.drupalcode.org/project/ui_suite_uswds",
-                "issues": "https://www.drupal.org/project/issues/ui_suite_uswds"
             }
         },
         {
@@ -8572,7 +8432,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/gin_lb": 10,
         "drupal/ui_icons": 10,
         "drupal/ui_suite_bootstrap": 10
     },

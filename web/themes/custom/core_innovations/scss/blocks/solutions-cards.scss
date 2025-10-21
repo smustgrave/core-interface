@@ -1,6 +1,12 @@
-.solutions-card {
-  margin-top: 5rem;
+.block-plugin-inline-blocksolution-card {
   min-height: 530px;
+  margin-top: 2rem;
+
+  .inner {
+    background-color: var(--core-grey);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 
   img {
     border-radius: 100%;

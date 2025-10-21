@@ -15,16 +15,27 @@
 @import 'base';
 @import 'ckeditor-styles';
 
+// Form.
+@import 'form/contact-form';
+
 // Blocks
+@import 'blocks/background-image-blocks';
+@import 'blocks/what_we_do_blocks';
 @import 'blocks/solutions-cards';
 
 // Components.
-@import 'components/banner';
 @import 'components/buttons';
 @import 'components/iframe';
 @import 'components/nav';
 @import 'components/tables';
 
 // Layout.
+@import 'layout/header';
 @import 'layout/footer';
 @import 'layout/layout-builder-columns';
+@import 'layout/layout-builder-styles';
+
+// Individual pages.
+@import 'pages/about';
+@import 'pages/homepage';
+@import 'pages/solutions';

@@ -7,7 +7,30 @@
 
 declare(strict_types=1);
 
+use Drupal\Component\Utility\Html;
 use Drupal\node\NodeInterface;
+
+/**
+ * Implements hook_preprocess_html().
+ */
+function core_innovations_preprocess_html(array &$variables): void {
+  // Get the current path (like 'node/123' or 'about-us').
+  $current_path = \Drupal::service('path.current')->getPath();
+
+  // Convert internal system path to alias (like 'about-us' instead of '/node/123').
+  $alias = \Drupal::service('path_alias.manager')->getAliasByPath($current_path);
+
+  // Sanitize it into a valid CSS class (slashes → dashes, remove unsafe chars).
+  $class = Html::getClass(trim($alias, '/'));
+
+  // Fallback for homepage.
+  if ($class === '') {
+    $class = 'frontpage';
+  }
+
+  // Add to body classes.
+  $variables['attributes']['class'][] = 'path-' . $class;
+}
 
 /**
  * Implements hook_preprocess_block().

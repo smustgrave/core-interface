@@ -1,28 +1,39 @@
 footer {
   min-height: 40px;
+  max-width: unset !important;
   background-color: #004d6d;
   color: #ffffff;
 
   > div {
     padding: 0 2rem 2rem;
     display: flex;
+    flex-wrap: wrap;
 
     > div {
       flex: 0 0 33%;
     }
+  }
 
-    #block-core-innovations-footersocialicons {
-      align-self: center;
-      justify-items: center;
+  p,
+  hr {
+    margin: 0;
+  }
 
-      .field--item p {
-        display: flex;
-        gap: 1rem;
+  p {
+    line-height: inherit;
+  }
 
-        a {
-          color: var(--white);
-          text-decoration: none;
-        }
+  #block-core-innovations-footersocialicons {
+    align-self: center;
+    justify-items: center;
+
+    .field--item p {
+      display: flex;
+      gap: 1rem;
+
+      a {
+        color: var(--white);
+        text-decoration: none;
       }
     }
   }
@@ -35,6 +46,34 @@ footer {
         margin-bottom: 0;
         line-height: 1.5rem;
       }
+    }
+  }
+
+  #block-core-innovations-footercontactlinks {
+    padding-left: 2rem;
+  }
+
+  @include media-breakpoint-down(md) {
+    > div {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      padding: 0;
+
+      > div {
+        flex: 1;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+    }
+
+    #block-core-innovations-footerlefticons {
+      img:first-child {
+        max-width: 60%;
+      }
+    }
+
+    #block-core-innovations-footercontactlinks {
+      padding-left: unset;
     }
   }
 }

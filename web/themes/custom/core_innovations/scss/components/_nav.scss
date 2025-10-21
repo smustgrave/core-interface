@@ -1,19 +1,16 @@
 .navbar {
-  z-index: 9999;
-  padding-top: 1.5rem;
+  .nav-item {
+    padding-right: 1rem;
 
-  .navbar-brand > img {
-    max-height: 60px;
-  }
+    a {
+      color: var(--black) !important;
+      font-size: 1.25rem;
 
-  a {
-    color: #fff !important;
-    font-size: 1.25rem;
-
-    &.active,
-    &.is-active {
-      border-bottom: 1px solid var(--white);
-      padding-bottom: 0;
+      &.active,
+      &.is-active {
+        border-bottom: 1px solid var(--core-blue);
+        padding-bottom: 0;
+      }
     }
   }
 }

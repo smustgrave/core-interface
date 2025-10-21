@@ -3,14 +3,13 @@
 // Default variables.
 @import 'configuration-import';
 @import '../../../../libraries/bootstrap/scss/root';
+@import 'custom-variables';
 
 .ck-content {
-  @import '../../../../libraries/bootstrap/scss/reboot';
-  @import '../../../../libraries/bootstrap/scss/type';
-  @import '../../../../libraries/bootstrap/scss/images';
-  @import '../../../../libraries/bootstrap/scss/containers';
-  @import '../../../../libraries/bootstrap/scss/grid';
-  @import '../../../../libraries/bootstrap/scss/tables';
-  @import '../../../../libraries/bootstrap/scss/helpers';
-  @import '../../../../libraries/bootstrap/scss/utilities/api';
+  @import 'base';
+  @import 'ckeditor-styles';
+
+  @import 'components/buttons';
+  @import 'components/iframe';
+  @import 'components/tables';
 }

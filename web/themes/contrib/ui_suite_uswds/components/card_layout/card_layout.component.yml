@@ -1,9 +1,0 @@
-name: 'Card Layout'
-description: 'Cards contain content and actions about a single subject.'
-group: Card
-links:
-  - 'https://designsystem.digital.gov/components/card/'
-slots:
-  cards:
-    title: Cards
-    description: 'Group of cards.'

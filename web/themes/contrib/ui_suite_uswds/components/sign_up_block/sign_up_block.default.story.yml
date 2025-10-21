@@ -1,6 +1,0 @@
-name: Preview
-props:
-  heading: 'Sign up'
-  label: 'Your email address'
-  button_label: 'Sign up'
-  form_url: /

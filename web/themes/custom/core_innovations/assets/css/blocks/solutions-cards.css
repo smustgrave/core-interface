@@ -1,21 +1,26 @@
-.solutions-card {
-  margin-top: 5rem;
+.block-plugin-inline-blocksolution-card {
   min-height: 530px;
+  margin-top: 2rem;
 }
-.solutions-card img {
+.block-plugin-inline-blocksolution-card .inner {
+  background-color: var(--core-grey);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.block-plugin-inline-blocksolution-card img {
   border-radius: 100%;
   width: 200px;
   height: 200px;
 }
-.solutions-card h2 {
+.block-plugin-inline-blocksolution-card h2 {
   margin-top: 2rem;
 }
-.solutions-card hr {
+.block-plugin-inline-blocksolution-card hr {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
-.solutions-card .description {
+.block-plugin-inline-blocksolution-card .description {
   max-width: 75%;
   margin: 0 auto;
 }

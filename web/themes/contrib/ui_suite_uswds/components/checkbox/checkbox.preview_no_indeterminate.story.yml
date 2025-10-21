@@ -1,6 +1,0 @@
-name: Preview No Indeterminate
-props:
-  tile: true
-  indeterminate: false
-  field_name: 'check-historical-douglass'
-  field_label: 'Frederick Douglass'

@@ -1,0 +1,13 @@
+.path-solutions {
+  .col-12 {
+    overflow: hidden;
+
+    .block-plugin-inline-blocksolution-card:nth-child(2) {
+      height: 100%;
+
+      .inner {
+        height: 100%;
+      }
+    }
+  }
+}

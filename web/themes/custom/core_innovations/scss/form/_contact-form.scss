@@ -1,0 +1,15 @@
+@import '../configuration-import';
+
+#contact-message-feedback-form {
+  margin-bottom: 3rem;
+
+  .form-label {
+    font-size: 1.25em;
+    line-height: 2em;
+    margin-bottom: 0;
+  }
+
+  .form-actions {
+    text-align: center;
+  }
+}

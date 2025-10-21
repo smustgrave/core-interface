@@ -1,0 +1,13 @@
+.block-plugin-inline-blockimage-block {
+  .field--item > div {
+    min-height: 500px;
+    background-position: bottom;
+
+    position: relative; /* or absolute */
+    left: 50%; /* Move it to the right side of the container */
+    right: 50%; /* Move it to the left side of the container */
+    margin-left: -50vw; /* Pull the element to the left */
+    margin-right: -50vw; /* Pull the element to the right */
+    width: 100vw; /* Full viewport width */
+  }
+}

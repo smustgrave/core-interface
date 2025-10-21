@@ -18,10 +18,6 @@ regions:
 
 ckeditor5-stylesheets:
   - assets/css/ckeditor5.css
-  -
-libraries-extend:
-  ui_suite_bootstrap/form:
-    - core_innovations/form
 
 libraries:
   - core_innovations/framework
